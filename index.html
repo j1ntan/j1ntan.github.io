@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id = "desktop-nav">
+        <div class = "logo"> Ayushmaan Dhanai. </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="#hobbies">Hobbies</a>
+                    <ul class="dropdown">
+                        <li><a href="tt.html">Table Tennis</a></li>
+                        <li><a href="games.html">Video Games</a></li>
+                        <li><a href="dance.html">Dancing</a></li>
+                        <li><a href="anime.html">Anime</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Ayushmaan Dhanai profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ayushmaan Dhanai</h1>
+        <p class="section__text__p2">I'm a freshie in Chemical Engineering department, exploring some cool stuff and looking forward to joining devcom!</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ayushmaan-dhanai-1873361a7/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/j1ntan'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:ayushmaandhanai@gmail.com">ayushmaandhanai@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ayushmaan-dhanai-1873361a7/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
